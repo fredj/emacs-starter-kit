@@ -42,7 +42,7 @@
 (require 'ffap)
 (require 'uniquify)
 (require 'ansi-color)
-(require 'recentf)
+;;(require 'recentf)
 
 ;; backport some functionality to Emacs 22 if needed
 (require 'dominating-file)
@@ -53,10 +53,10 @@
 (require 'starter-kit-bindings)
 (require 'starter-kit-misc)
 (require 'starter-kit-registers)
-(require 'starter-kit-eshell)
-(require 'starter-kit-lisp)
-(require 'starter-kit-perl)
-(require 'starter-kit-ruby)
+;;(require 'starter-kit-eshell)
+;;(require 'starter-kit-lisp)
+;;(require 'starter-kit-perl)
+;;(require 'starter-kit-ruby)
 (require 'starter-kit-js)
 
 (regen-autoloads)
