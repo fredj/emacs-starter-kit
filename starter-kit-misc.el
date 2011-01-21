@@ -53,6 +53,9 @@
 ;; Enable syntax highlighting for older Emacsen that have it off
 (global-font-lock-mode t)
 
+;; column-number-mode
+(column-number-mode t)
+
 ;; Highlight matching parentheses when the point is on them.
 (show-paren-mode 1)
 
