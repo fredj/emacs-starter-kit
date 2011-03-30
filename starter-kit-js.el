@@ -8,5 +8,7 @@
 (add-hook 'espresso-mode-hook 'esk-paredit-nonlisp)
 (add-hook 'espresso-mode-hook 'run-coding-hook)
 
+(require 'closure-lint-mode)
+
 (provide 'starter-kit-js)
 ;;; starter-kit-js.el ends here
